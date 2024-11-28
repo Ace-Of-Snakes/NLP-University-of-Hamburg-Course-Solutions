@@ -1,0 +1,16 @@
+# Remove all of the Data from The Pre Trained Model -> too much for Git
+complex_word_model/
+
+# Remove all of the Data from The Epoch Results -> too much for Git
+results/checkpoint-5296/config.json
+results/checkpoint-5296/model.safetensors
+results/checkpoint-5296/optimizer.pt
+results/checkpoint-5296/rng_state.pth
+results/checkpoint-5296/scheduler.pt
+results/checkpoint-5296/training_args.bin
+
+# Empty folder
+tmp_trainer/
+
+# SKLearn approach that didn't work out
+sklearn_approach/
