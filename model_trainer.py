@@ -184,7 +184,7 @@ def main():
     # Training arguments with GPU-friendly settings
     training_args = TrainingArguments(
         output_dir='./results',
-        num_train_epochs=5,
+        num_train_epochs=7,
         per_device_train_batch_size=16,  # Reduce if out of memory
         per_device_eval_batch_size=64,
         warmup_steps=500,
